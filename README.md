@@ -17,3 +17,5 @@ git clone https://github.com/Jacob-Brown-950/Capstone-Project-CloudUploader-CLI
 ```bash
 cd Capstone-Project-CloudUploader-CLI
 ```
+3) Modify permissions to make the script executable
+
