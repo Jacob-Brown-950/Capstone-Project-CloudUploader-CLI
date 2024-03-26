@@ -18,4 +18,11 @@ git clone https://github.com/Jacob-Brown-950/Capstone-Project-CloudUploader-CLI
 cd Capstone-Project-CloudUploader-CLI
 ```
 3) Modify permissions to make the script executable
+```bash
+chmod 700 cloud-uploader.sh
+```
+4) Run the script along with a file path.
+```bash
+./cloud-uploader.sh /example/user/downloads/something.txt
+```
 
