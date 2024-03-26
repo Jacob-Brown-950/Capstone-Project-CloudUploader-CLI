@@ -21,11 +21,11 @@ if ! command -v az &> /dev/null; then
    echo "Azure CLI is not installed. Please install it and try again"
    exit 1
 else 
-   echo -n "Enter your account name: "
+   echo -n "Enter your storage account name: "
    read storage_account
    echo -n "Enter your storage account key: "
    read storage_account_key
-   echo -n "Enter your account container name: "
+   echo -n "Enter your storage account container name: "
    read container_name
 fi
 
