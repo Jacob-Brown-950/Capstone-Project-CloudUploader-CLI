@@ -11,3 +11,9 @@ Create a duplicate of this repository.
 ```bash
 git clone https://github.com/Jacob-Brown-950/Capstone-Project-CloudUploader-CLI
 ```
+## How to use it
+1) Open your terminal
+2) Move to the directory "Capstone-Project-CloudUploader-CLI"
+```bash
+cd Capstone-Project-CloudUploader-CLI
+```
