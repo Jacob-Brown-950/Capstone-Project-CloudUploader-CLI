@@ -10,6 +10,12 @@ if [ -z "$file_path" ]; then
    exit 1
 fi
 
+#Check if the file path provided exists or not
+if [ ! -f "$file_path" ]; then
+   echo "Error: File '$file_path' not found."
+   exit 1
+fi
+
 #Check if the Azure CLI is installed so the user can continue
 if ! command -v az &> /dev/null; then
    echo "Azure CLI is not installed. Please install it and try again"
